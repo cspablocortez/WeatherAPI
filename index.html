@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Weather API</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+	<h1 class="app-title">Weather API App</h1>
+	<input id="zipcode" type="text" placeholder="US Zipcode: 10028">
+	<button onclick="fetchWeatherData()">Search</button>
+	<br>
+	<div class="weather-card" style="display: none">
+		<h1 class="forecast">Partly Cloudy</h1>
+		<h4 class="time">5:48 PM</h4>
+		<img class="weather-icon" src="" alt="">
+		<h2 class="temperature">10</h2>
+		<h4 class="city">-</h4>
+		<div class="weather-data">
+			<p class="humidity">10000</p>
+		</div>
+		
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
